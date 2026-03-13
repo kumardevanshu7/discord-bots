@@ -79,7 +79,7 @@ Abhi tak aapka kuch bhi upload nahi hua hai aaj ke din **${user.name}**.
 
 
 // 📊 11:59 PM Daily Check
-cron.schedule("59 23 * * *", async () => {
+cron.schedule("30 23 * * *", async () => {
 
   console.log("Checking daily posts...");
 
